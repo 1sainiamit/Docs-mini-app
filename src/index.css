@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Gilroy-Light";
+  src: url("/Gilroy-Light.otf") format("truetype");
+  /* Add other font formats if necessary */
+}
+
+* {
+  font-family: "Gilroy-Light", sans-serif;
+}
+
+::selection {
+  color: rgb(232, 145, 47);
+}
+
+/* @layer base {
+  h1 {
+    @apply tracking-wide text-4xl font-semibold my-10 font-sans;
+  }
+  h2 {
+    @apply tracking-wide font-semibold text-2xl font-sans my-4;
+  }
+  p {
+    @apply tracking-wide mb-10 text-xl font-sans;
+  }
+} */
